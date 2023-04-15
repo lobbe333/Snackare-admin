@@ -1,0 +1,35 @@
+.speakerProfile {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-top: -10px;
+    gap: 40px;
+  }
+  
+  .speakerProfile-name-container {
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .speakerProfile-text-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-size: 13px;
+  }
+  
+  .speakerProfile-header-container {
+    font-family: 'DM Serif Display', serif;
+    font-size: 10px;
+  }
+  
+  .speakerProfile-header-text {
+    margin-top: 55px;
+    width: 500px;
+  }
+  
+  .speakerProfile-image {
+    height: 600px;
+    width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  

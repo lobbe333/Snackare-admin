@@ -1,0 +1,21 @@
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100vh;
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  .accordion-header {
+    background-color:white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .accordion p{
+    font-weight: 400;
+  }
+  

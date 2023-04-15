@@ -1,0 +1,299 @@
+.example-lecture li, .review li{
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.example-lecture p, .review p, .input-topic p{
+  margin: 0;
+  margin-left: 20px;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.add-speaker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.add-card-container {
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.add-personalInfo-container {
+  display: flex;
+  gap: 50vh;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.input-personalInformation-container {
+  background-color: #F16876;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.input-container {
+  background-color: #F16876;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.input-container-speakerProfile {
+  background-color: #F16876;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 30px;
+}
+
+input {
+  width: 300px;
+  border-radius: 4px;
+  font-size: 15px;
+  border-color: transparent;
+}
+
+.roles-input{
+  display: flex;
+
+}
+
+.roles-input label input{
+  display: inline-block;
+  width: auto;
+}
+
+.name-input {
+  height: 30px;
+}
+
+.category-input {
+  height: 30px;
+}
+
+
+.shortDescription-textarea {
+  height: 90px;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.long-description-input {
+  height: 500px;
+  width: 100vh;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.imgUrl-input{
+  height: 30px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+
+.card-front {
+  background-color: white;
+  height: 20rem;
+  width: 13rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card-back {
+  height: 20rem;
+  width: 13rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  background-size: cover;
+  background-color: rgba(0, 38, 253, 0.5);
+  background-blend-mode: multiply;
+
+}
+
+.card-back img {
+  opacity: 0.8;
+}
+
+.card-back h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 15px;
+}
+
+.card-back p {
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-size: 13px;
+}
+
+
+.card-information {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.name {
+  margin: 0px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+}
+
+
+.topics-container, .roles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+
+
+.role {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  background-color: #273B7B;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+  /* Hindra radbrytning i ämnen */
+}
+
+.topic {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  background-color: #F16876;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+  display: flex;
+  /* Hindra radbrytning i ämnen */
+}
+
+.card-image {
+  height: 200px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  font-weight: 1px;
+}
+
+.example-lectures-input,
+.reviews-input {
+  height: 30px;
+  width: 100vh;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: transparent;
+
+}
+
+.example-lecture, .review, .input-topic{
+  display: flex;
+}
+
+.button-add-review, .button-add-exampleLecture, .button-add-topic {
+  margin: 0;
+  height: 30px;
+  background-color: #273B7B;
+
+}
+.header-input, .imgUrl2-input {
+  width: 100vh;
+}
+
+.example-lectures-input-wrapper,
+.reviews-input-wrapper {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100vh;
+}
+
+.topics-input-wrapper{
+  width: 60%;
+  display: flex;
+  gap: 10px
+}
+
+.topics-input-wrapper, button{
+  font-size: 12px;
+}
+
+.example-lectures-input,
+.reviews-input {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.example-lectures-list,
+.reviews-list {
+  margin-bottom: 1rem;
+  background-color: white;
+  width: 100vh;
+  border-radius: 10px;
+}
+
+.topic-list{
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}

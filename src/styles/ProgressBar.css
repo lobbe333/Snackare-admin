@@ -1,0 +1,44 @@
+.progressbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: #273B7B;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #273B7B;
+  }
+  
+  .circle-text {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  
+  .completed {
+    background-color: #273B7B;
+    color: white;
+  }
+
+  .progress-step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  
